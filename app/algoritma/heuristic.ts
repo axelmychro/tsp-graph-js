@@ -1,4 +1,4 @@
-export interface City {
+  export interface City {
   id: number;
   x: number;
   y: number;
