@@ -20,6 +20,9 @@
         ];
         shellHook = ''
           echo 'Entering Node.js development environment'
+          npm audit fix --force
+          npm install --force
+          npm run dev
         '';
       };
     };
